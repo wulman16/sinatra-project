@@ -1,15 +1,14 @@
 require 'bundler/setup'
+require_relative 'api_key'
+
 Bundler.require
 
 require_all('app/')
 
 set :database, {adapter: "sqlite3", database: "db/database.sqlite3"}
 
-require 'yelp'
+require 'yelp/fusion'
 
-Yelp.client.configure do |config|
-  config.consumer_key = ''
-  config.consumer_secret = ''
-  config.token = ''
-  config.token_secret = ''
+configuration = Yelp::Fusion.client.configure do |config|
+  config.api_key = API_KEY
 end
