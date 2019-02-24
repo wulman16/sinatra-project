@@ -1,0 +1,6 @@
+<% @restaurants.each do |r| %>
+  <h3><a href="/restaurants/<%= r.id %>"><%= r.name %></a></h3>
+  <p>Rating: <%= r.rating %></p>
+  <p>Address: <%= r.address %></p>
+  <br>
+<% end %>

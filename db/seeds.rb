@@ -1,0 +1,17 @@
+# Restaurant.create(name: "The Pinewood", rating: 4, address: "254 W Ponce de Leon Ave")
+# Restaurant.create(name: "Shinju Sushi", rating: 5, address: "1375 E 53rd St")
+# Restaurant.create(name: "Minero", rating: 4, address: "675 Ponce De Leon Ave NE #136")
+# Restaurant.create(name: "Grindhouse Killer Burgers", rating: 3, address: "1842 Piedmont Ave NE")
+# Restaurant.create(name: "The Promontory", rating: 5, address: "5311 S Lake Park Ave W")
+
+# User.create(name: "Will")
+# User.create(name: "Heather")
+# User.create(name: "Tamer")
+# User.create(name: "Lisa")
+# User.create(name: "Dalton")
+
+# UserRestaurant.create(user_id: 11, restaurant_id: 12)
+# UserRestaurant.create(user_id: 11, restaurant_id: 15)
+# UserRestaurant.create(user_id: 12, restaurant_id: 11)
+# UserRestaurant.create(user_id: 13, restaurant_id: 13)
+# UserRestaurant.create(user_id: 14, restaurant_id: 14)
